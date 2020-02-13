@@ -30,7 +30,8 @@ for (let i = 0; i < 2; i++) {
         console.log('done');
         appData.expenses[a] = b;
     } else {
-
+        console.log ("bad result");
+        i--; // Чтобы при не выполнении условия, вопросы задавались повторно
     };
 };
 
